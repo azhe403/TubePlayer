@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34205.153
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TubePlayer", "TubePlayer\TubePlayer.csproj", "{F660D9B3-8F8C-4176-9C30-7A69904C38D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F660D9B3-8F8C-4176-9C30-7A69904C38D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F660D9B3-8F8C-4176-9C30-7A69904C38D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F660D9B3-8F8C-4176-9C30-7A69904C38D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F660D9B3-8F8C-4176-9C30-7A69904C38D3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {57A29845-E021-4350-9C8A-79C486230BDC}
+	EndGlobalSection
+EndGlobal
