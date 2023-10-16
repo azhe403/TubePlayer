@@ -16,8 +16,8 @@ public partial class WebPlayerPage : INavigableView<WebPlayerViewModel>
         
         InitializeComponent();
 
-        webView.SourceChanged += OnWebViewSourceChanged;
-        webView.NavigationCompleted += WebViewOnNavigationCompleted;
+        WebPlayer.SourceChanged += OnWebViewSourceChanged;
+        WebPlayer.NavigationCompleted += WebViewOnNavigationCompleted;
         
         Environment.SetEnvironmentVariable("WEBVIEW2_USER_DATA_FOLDER", @"C:\MyDirectory\", EnvironmentVariableTarget.Process);
     }

@@ -5,7 +5,7 @@ namespace TubePlayer.ViewModels.Pages;
 public partial class WebPlayerViewModel : ObservableObject, INavigationAware
 {
     [ObservableProperty] 
-    private string _webUrl;
+    private string? _webUrl;
 
     public WebPlayerViewModel()
     {
